@@ -2,3 +2,75 @@ h
 {
 color: brown;
 }
+body{
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    width: 90%;
+    
+}
+
+.tableau-style {
+    border-collapse: collapse;
+    min-width: auto;
+    width: 400px;
+    box-shadow: 0 5px 50px rgba(0,0,0,0.15);
+    cursor: pointer;
+    margin: 100px auto;
+    border: 2px solid midnightblue;
+}
+
+thead tr 
+{
+    background-color: midnightblue;
+    color: #fff;
+    text-align: left;
+}
+th, td {
+    padding: 15px 20px;
+}
+
+tbody tr, td, th {
+    border: 1px solid #ddd;
+}
+
+tbody tr:nth-child(even){
+    background-color: #f3f3f3;
+}
+
+a:hover
+{
+text-decoration: solid;
+color: yellowgreen;
+}
+
+.mon_texte_en_rouge {
+    color: red;
+}
+.texte_en_vert {
+    color: green;
+}
+.texte_en_jaune {
+    color: yellow;
+}
+.texte_en_violet {
+    color: violet;
+}
+.texte_en_bleu {
+    color: blue;
+}
+h6 {
+    color: orange;
+    font-weight:bold  ;
+}
+.mes_listes {
+   margin: 0 auto;
+   padding-block-end: 12px;
+   width:auto
+
+}
+h1 {
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px
+}
